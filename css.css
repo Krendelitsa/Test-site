@@ -49,3 +49,11 @@ margin-top: -10%;
  body{
     background-color: #E1CCFF;
    } 
+   
+.myMessage {
+	  color: red;
+  }
+  
+.notMyMessage {
+	  color: green;
+  }

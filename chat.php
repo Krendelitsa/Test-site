@@ -24,13 +24,15 @@ let button = document.querySelector('#send');
 button.onclick = function () {
     let textElement = document.querySelector('#text');
     let textValue = textElement.value;
+	textElement.value = '';
     let userElement = document.querySelector('#userId');
-    let userValue = textElement.value;
+    let userValue = userElement.value;
     $.post( "ajax.php", {text: textValue, userId: userValue } , function( text ) {
         let div = document.querySelector('#messages');
-        div.textContent = text;
+        div.innerHTML = text;
     });
 };  //какая-то фигня с привязкой других файлов. css постоянно отваливался, js вообще не подключился.
+
 </script>
 
 	
