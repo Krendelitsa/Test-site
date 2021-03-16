@@ -11,7 +11,8 @@
 </div>
 <div class = "input">
 <form action = "index.php" method="post">
-<input placeholder= "Введите сообщение" id = "text"/> 
+<input placeholder= "Введите сообщение" id = "text"/>
+    <input type="hidden" id="userId" value="<?=$_GET['userId']?>">
 </form>
 <button id = "send"> Отправить </button>
 
@@ -23,7 +24,9 @@ let button = document.querySelector('#send');
 button.onclick = function () {
     let textElement = document.querySelector('#text');
     let textValue = textElement.value;
-    $.post( "ajax.php", {text: textValue } , function( text ) {
+    let userElement = document.querySelector('#userId');
+    let userValue = textElement.value;
+    $.post( "ajax.php", {text: textValue, userId: userValue } , function( text ) {
         let div = document.querySelector('#messages');
         div.textContent = text;
     });
