@@ -1,0 +1,51 @@
+#chat {
+	border: 2px ridge black;
+	margin:10%;
+	margin-left: 23%;
+	margin-top: 5%;
+	width:50%;
+	height:60%;
+	background:#F8FAC8;
+	color:black;
+	font-family: TimesNewRoman;
+	font-size: 16pt;
+}
+
+
+
+.input{
+margin-left:23%;
+margin-top: -10%;
+}
+	
+#text {
+	width: 49%;
+	height: 15%;
+	background:#C7F9D0;
+    color:black;
+	font-family: TimesNewRoman;
+	font-size: 14pt;
+	border: black 2px ridge;
+}
+
+#send {
+	margin-top: -8%;
+	margin-left:50%;
+	font-family:arial;
+	font-size:20px;
+	color: #E8DCAC;
+	background-color: black;
+	width: 15%;
+	height: 6%;
+	border: black 2px ridge;
+}
+#name {
+	color: orange;
+	font-size: 28px;
+ margin-left: 17%;
+ margin-top: -6%;
+}
+
+ body{
+    background-color: #E1CCFF;
+   } 
