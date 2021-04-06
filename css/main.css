@@ -1,16 +1,16 @@
 @font-face {
     font-family: London; /* Гарнитура шрифта */
-    src: url(/diplom/css/old_london/OldLondon.ttf); /* Путь к файлу со шрифтом */
+    src: url(old_london/OldLondon.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: MoncB; /* Гарнитура шрифта */
-    src: url(/diplom/css/montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+    src: url(montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: Monc; /* Гарнитура шрифта */
-    src: url(/diplom/css/montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
 html{

@@ -33,7 +33,7 @@ class Model_dialog extends Model
         $me=$this->find_person();
         $idt=$this->db->real_escape_string($_POST['id']);
         $idt=htmlspecialchars($idt);
-        $result=$this->db->query("SELECT messages.*,users_chat.login,users_chat.img FROM messages,users_chat where messages.id_theme=$idt and users_chat.id=messages.id_user");
+        $result=$this->db->query("SELECT messages.*,users_chat.login,users_chat.img FROM messages,users_chat where messages.id_theme=$idt and users_chat.id=messages.id_user ORDER BY messages.data ASC");
          if (isset($result)) {
           while ( $row = mysqli_fetch_row($result)) {
             $mess[] = $row;

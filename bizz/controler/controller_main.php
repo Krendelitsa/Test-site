@@ -16,11 +16,6 @@ class Controller_Main extends Controller
         $this->view->generate('view_mail.php', 'view_form.php',$data);
     }
 
-    function action_send(){
-        $data['user']=$this->way[4];
-        $this->model_mail->save_mess($man);
-    }
-
     function action_dialog()
     {
         $data['mess']=$this->model_mail->take_chat();
