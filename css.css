@@ -1,5 +1,5 @@
 #chat {
-	border: 2px ridge black;
+	border: 3px ridge black;
 	margin:10%;
 	margin-left: 23%;
 	margin-top: 5%;
@@ -9,6 +9,8 @@
 	color:black;
 	font-family: TimesNewRoman;
 	font-size: 16pt;
+    overflow: auto;
+  
 }
 
 
@@ -25,7 +27,7 @@ margin-top: -10%;
     color:black;
 	font-family: TimesNewRoman;
 	font-size: 14pt;
-	border: black 2px ridge;
+	border: black 3px ridge;
 }
 
 #send {
@@ -50,10 +52,24 @@ margin-top: -10%;
     background-color: #E1CCFF;
    } 
    
-.myMessage {
-	  color: red;
+.first {
+	  color: #8532A8;
+
+  }
+  #first {
+	  width: 6%;
   }
   
-.notMyMessage {
-	  color: green;
+.second {
+	  color: #24B351;
+  }
+  #second {
+	  width: 6%;
+  }
+  .third {
+	  color: #F51A88;
+  }
+  #third {
+	  width: 6%;
+
   }
