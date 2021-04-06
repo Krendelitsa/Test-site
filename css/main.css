@@ -1,0 +1,104 @@
+@font-face {
+    font-family: London; /* Гарнитура шрифта */
+    src: url(/diplom/css/old_london/OldLondon.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: MoncB; /* Гарнитура шрифта */
+    src: url(/diplom/css/montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Monc; /* Гарнитура шрифта */
+    src: url(/diplom/css/montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+html{
+    width: 101%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+body {
+    width: 101%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    margin: 0 0;
+    background: #f7fbef;
+    overflow-x: hidden;
+    position: relative;
+    color: #011638;
+}
+
+header {
+    width: 101%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+}
+
+article {
+    z-index: 3;
+    background: #f7fbef;
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    position: relative;
+}
+
+article div {
+    z-index: 3;
+    margin: 0vw 0vw 0 0;
+}
+
+footer{
+    width: 101%;
+    height: 4vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: 700;
+    text-decoration: none;
+    background: #FFFFFF;
+    z-index: 3;
+    flex-shrink: 0;
+    border: 0.5px solid #E3E3E3;
+}
+
+.content_article{
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 65vw;
+    padding: 0.5vw 1vw;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+}
+
+.unvis{
+    display: none;
+}
+
+.error{
+   text-align: center;
+    margin-top: 4vw;
+}
+
+.background{
+    margin: 0;
+    z-index: 2; /* изображение размыто */
+    background-image: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0.3vw);
+    position: absolute;
+    width: 102vw;
+    top: 0;
+    left: -0.5vw;
+    height: 100vh;
+}

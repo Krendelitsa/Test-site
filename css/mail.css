@@ -1,0 +1,243 @@
+.mail_art{
+    margin-top: 5vw;
+    background: #f7fbef;
+    border-radius: 0.5vw;  
+}
+
+.mail_art hr{
+    height: 0.05vw;
+    background: gray;
+    border: none;
+}
+
+.mail_all{
+    margin: 0;
+}
+
+.mail_all a{
+    color: #011638;
+    text-decoration: none;
+}
+
+.mail_all button{
+    margin: 0;
+    padding: 0 0.4vw;
+    margin-top: 0.2vw;
+    height: 40px;
+    font-size: 1vw;
+    font-weight: 500;
+    background: white;
+    color: #83bf4e;
+    border: 1px solid #f7fbef;
+    box-sizing: border-box;
+    border-radius: 1vw 0vw 0 0;
+}
+
+.mail_all .selected{
+    background: #83bf4e;
+    color: #f7fbef;
+}
+
+.mail_all button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    color: #f7fbef;
+    background: #68973b;
+}
+
+.mail_all #outchat{
+     margin-left: -0.3vw; 
+     border-radius: 0vw 1vw 0 0;
+}
+
+.mail_dialog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0.5vw 1vw;
+    position: relative;
+    border-radius: 0.5vw;
+    background: white;
+}
+
+.cab_history .mail_dialog .mail_hat{
+    width: auto;
+}
+
+
+.mail_main .mail_dialog:hover{
+    background: #83bf4e;
+}
+
+.mail_dialog div{
+    margin: 0;
+}
+
+.mail_photo{
+    background: #83bf4e;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.mail_dialog .mail_hat{
+    align-items: center;
+   justify-content: space-between;
+   width: 55vw;
+   margin: 0 1vw;
+}
+
+.mail_hat input{
+    border-radius: 4px;
+    background: white;
+    font-size:  1.5vw;
+    border: 0;
+    width: 32vw;
+    padding: 0.2vw 0.5vw;
+}
+
+.mail_hat #cab_file{
+    font-size:  0.8vw;
+    background: none;
+}
+
+.mail_dialog .mail_message{
+    margin: 0 1vw;
+    height: 2vw;
+}
+.mail_dialog .mail_hat .mail_message{
+    margin: 0 0;
+    height: 2vw;
+}
+
+.mail_dialog .mail_hat .mail_date{
+   position: absolute;
+   right: 1vw;
+}
+
+
+.mail_search{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    justify-content: space-between;
+
+}
+
+.mail_search p{
+    margin: 0;
+    padding: 0;
+}
+
+.mail_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 1.5vw;
+}
+
+.mail_right a{
+     padding: 0 0.3vw;
+}
+
+.mail_right a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+
+.mail_dialog .mail_right{
+    font-size: 1vw;
+    position: absolute;
+    right: 0.5vw;
+}
+
+.mail_search a{
+    padding: 0.5vw;
+    color: #011638;
+    text-decoration: none;
+}
+
+.mail_search a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+
+.mail_art .mail_small{
+     width: 8vw;
+    height: 2vw;
+    margin-left: 0;
+    border-radius: 0;
+    padding: 0;
+    border-top-right-radius: 0.3vw;
+    border-bottom-right-radius:0.3vw;
+    display: inline-block;
+
+ }
+
+.mail_send{
+    display: flex;
+    flex-direction: row;
+    letter-spacing : -.36em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+}
+
+.mail_send .mail_ss{
+    border: 0;
+    margin-left: 0;
+    border-radius: 0;
+    border-top-left-radius: 0.3vw;
+    border-bottom-left-radius:0.3vw;
+    display: inline-block;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.mail_art textarea{
+    width: 85%;
+    resize: none;
+    height: 3vw;
+}
+
+.mail_art .mail_small{
+    width: 15%;
+    height: 4vw;
+    background: #83bf4e;
+    color: white;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+}
+
+.mail_art .me{
+    background: #e8f8c9;
+    border-radius: 0.5vw;
+}
+
+.mail_top{
+    display: flex;
+    flex-direction: row;
+    height: 5vw;
+    position: relative;
+    align-items: center;
+    padding: 0.3vw 0.5vw;
+    font-size: 1.2vw;
+    justify-content: space-between;
+}
+
+.mail_top a{
+    padding: 0.5vw;
+    color: #011638;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.mail_top a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.2s;}

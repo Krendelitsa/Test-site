@@ -1,7 +1,9 @@
 <?php
-require_once ('functions.php');
-
-//addTextToArray('Тестовый текст', 1); Вот так можно добавить текст
-
-//$textArray = getTextArray(); А вот так можно получить массив всего добавленного на этот момент текста.
-//В результате у вас будет массив хранящий в себе id пользователя и текст сообщения по порядку
+session_start();
+header('Content-Type: text/html; charset=utf-8');
+$routes = explode('/', $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+define('PROTOCOL', $routes[0]);
+define('URL_BASE','/messenger');
+define('START_POSITION',2);
+ini_set('display_errors', 0);
+require_once 'bizz/bootstrap.php';
