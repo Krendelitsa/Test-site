@@ -1,0 +1,113 @@
+ .name_chat {
+    float: center;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    font-size: 24pt; 
+    
+}
+.img_chat {
+    border: 1px solid #75B0C7;
+    border-radius: 80px;
+    box-shadow: 0 0 7px #666;
+    margin: 10px 25px 10px 10px;
+    }
+.button {
+    background-color: #C1E5F6;
+    text-align: center;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: none;
+    line-height: 0.3;
+    vertical-align: top;
+    border-radius: 100px;
+}
+.hr {
+  margin: 20px 10px 80px 10px;
+}
+.body {
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 19px;
+    background: #161C1E;
+}
+.user_avatar1 {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #666;
+    border: 1px solid #75B0C7; 
+	
+}
+.name_user1 {
+    text-align: left;
+    color: #64FFFD;
+    font-size: 10pt; 
+   
+}
+#messages{
+	text-align: left;
+    color: #64FFFD;
+    font-size: 16pt; 
+    border: 1px solid #75B0C7;
+    border-radius: 5px;
+    background: #98AFC7;
+    color: black;
+	padding: 20px; 
+    
+}
+#text{
+	text-align: left;
+    color: #64FFFD;
+    font-size: 16pt; 
+    border: 1px solid #75B0C7;
+    border-radius: 5px;
+    background: #396072;
+    color: white;
+}
+.user_avatar2 {
+    
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #666;
+    border: 1px solid #75B0C7;
+}
+.name_user2 {
+    text-align: left;
+    color: #64FFFD;
+    font-size: 10pt; 
+}
+    
+.user_avatar3 {
+    
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #666;
+    border: 1px solid #75B0C7;
+}
+.name_user3 {
+    text-align: left;
+    color: #64FFFD;
+    font-size: 10pt; 
+}
+.input {
+	margin: 20px 0px;
+}
+.send {
+    background-color: #2A7D97;
+    text-align: center;
+    float: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    line-height: 0.3;
+    vertical-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #666;
+    margin: 20px 20px;
+}
