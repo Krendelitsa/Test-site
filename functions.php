@@ -2,22 +2,39 @@
 
 function addTextToArray($text, $user)
 {
-    $currentText = getTextArray();
-    $currentText[] = [
-        'userId' => $user,
-        'text' => $text
-    ];
-    file_put_contents('saveText.txt', serialize($currentText));
+$serverName = 'localhost';
+$dataBaseName = 'chat';
+$userName = 'root';
+$password = 'root';
+
+try {
+    $connection = new PDO("mysql:host=$serverName;dbname=$dataBaseName", $userName, $password);
+
+    $query = $connection->query("INSERT INTO `messages`(`user`,`text`) VALUES ('".$user."','".$text."')");
+}
+   catch (PDOException $e){
+	   echo $e->getMessage();
+   }
+	
     return true;
 }
 
 function getTextArray()
 {
-    if (file_exists('saveText.txt')) {
-        $rawText = file_get_contents('saveText.txt');
-        return unserialize($rawText);
-    }
+$serverName = 'localhost';
+$dataBaseName = 'chat';
+$userName = 'root';
+$password = 'root';
 
-    return [];
+try {
+    $connection = new PDO("mysql:host=$serverName;dbname=$dataBaseName", $userName, $password);
+	$query2 = $connection->query("SELECT * FROM `messages`");
+	    $result = $query2->fetchAll();
+	 return $result;
+	 }
+   catch (PDOException $e){echo $e->getMessage();}
+  
+   
 }
+?>
 
