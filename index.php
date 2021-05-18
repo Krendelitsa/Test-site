@@ -11,7 +11,7 @@
 	
 <body class="body">
 	<p class="name_chat">
-	<img width="100" height="100" <img src="http://localhost/images/avachat.jpg" class="img_chat" alt="avatar chat" align="left" 
+	<img width="100" height="100" <img src="http://localhost/avachat.jpg" class="img_chat" alt="avatar chat" align="left" 
   vspace="5" hspace="5"/>Friends
 	</p>    
 	<hr class="hr">
