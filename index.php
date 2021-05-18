@@ -11,7 +11,7 @@
 	
 <body class="body">
 	<p class="name_chat">
-	<img width="100" height="100" src="https://cdn1.savepice.ru/uploads/2021/3/9/f93e098a8c61dab8e475737a9f7e54fc-full.jpg" class="img_chat" alt="avatar chat" align="left" 
+	<img width="100" height="100" <img src="http://localhost/images/avachat.jpg" class="img_chat" alt="avatar chat" align="left" 
   vspace="5" hspace="5"/>Friends
 	</p>    
 	<hr class="hr">
@@ -23,5 +23,4 @@
 			<script src="script.js"></script>
 </body>
 </html>
-
 
