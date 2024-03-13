@@ -1,4 +1,4 @@
-This is my task fom courses.
+This is my task from courses.
 
 Task:
 Make a working chat using all the knowledge that was acquired over the past 10 lessons.
